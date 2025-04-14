@@ -68,7 +68,7 @@ height: 100%;
     margin: 0;
     gap: 20px; 
     font-family: Arial, Helvetica, sans-serif;
-    background-image:url("abstract-paper-background-concept.jpg");
+    background-image:url("img/abstract-paper-background-concept.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -90,7 +90,7 @@ height: 100%;
   .hero-text{
     color: #EEEDED;
     background-color: #0D1282;
-    opacity: 0.7 ;
+    opacity: 0.8 ;
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -108,7 +108,7 @@ height: 100%;
     text-align: center;
     align-items: center;
     font-family: Arial, sans-serif;
-    background-color: rgb(255, 112, 25);
+    background-color:  #df0e0ee6;;;
   }
 
   .section_cardHead{
@@ -129,7 +129,7 @@ height: 100%;
 
   .card
    {
-    background-image: url("blueBack.jpg");
+    background-image: url("img/blueBack.jpg");
     border: 1px solid #333;
     align-items: center;
     justify-content: center;
@@ -160,8 +160,7 @@ height: 100%;
     .footer-grid{
       display: flex;
       justify-content: center;
-       background-color:   #e83216;;;
-       background-image: url("back.jpg");
+       background-color:   #F0DE36;
        background-position: center;
        background-size: cover;
       text-align: center;
@@ -178,7 +177,7 @@ height: 100%;
       text-align: center;
       border-radius: 8px; 
       font-size: 14px;
-      background-image:url("blueBack.jpg");
+      background-image:url("img/blueBack.jpg");
       background-position: center;
       background-size: cover;
     }
@@ -198,6 +197,30 @@ height: 100%;
       font-family: Arial, sans-serif;
       text-align: center;
     }
+
+    .map-container {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+    
+    .map-title {
+      color: #EEEDED;
+      background-color: #0D1282;
+      padding: 10px;
+      border-radius: 8px;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .map-frame {
+      border: 0;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 1000px;
+      height: 350px;
+    }
+    
 
    
 
